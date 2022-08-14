@@ -1,0 +1,43 @@
+.pop-up{
+ color: var(--primary-01);
+ width: 30rem;
+ height: fit-content;
+ padding: 2rem;
+ background-color:  var(--bg-color-theme);
+ z-index: 10;
+margin: 4rem auto;
+margin-left: 36%;
+ border-radius: 10px;
+ position: fixed;
+}
+.he{
+    border-bottom: 3px solid var(--primary-01);
+}
+.hp{
+    padding-top: 1rem ;
+    color: var(--primary-font-color);
+}
+.pop-up-closed{
+    display: none;
+}
+.butt{
+    background-color: var(--primary-01);
+    font-weight: 700;
+    border-radius: 4px;
+    margin-top: 1rem;
+    border: none;
+    color: var(--bg-color-theme);
+}
+.butt:hover{
+    background-color:transparent;
+    color: var(--primary-01);
+}
+@media screen and (max-width:600px){
+    .pop-up{
+        width: 90%;
+        margin: 15% 5%;
+    }
+    .hp{
+        font-size: small;
+    }
+}

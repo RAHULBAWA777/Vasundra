@@ -1,0 +1,42 @@
+.navbar {
+    width: 100vw !important;
+    justify-content: center !important;
+}
+.bg-da{
+    background-color: var(--bg-color-theme)!important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--primary-01)!important;
+    font-size: larger;
+}
+.navbar-nav:hover .nav-link.active:hover, .navbar-nav:hover .show:hover>.nav-link:hover {
+    color: var(--primary-font-color)!important;
+    font-size: larger;
+}
+
+ .dropdown-item, .dropdown-menu{
+    color: var(--primary-font-color)!important;
+    background-color: var(--primary-01)!important;
+}
+.mx{
+    padding-left: 14rem!important;
+}
+
+i {
+    color: var(--primary-01);
+    font-size: 25px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+
+i:hover {
+    color: var(--primary-font-color);
+    transition: 500ms;
+}
+
+@media screen and (max-width:600px){
+    .mx{
+        padding-left: 0!important;
+    }
+} 

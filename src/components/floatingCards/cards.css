@@ -1,0 +1,97 @@
+.box{
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 19rem;
+color: var(--primary-font-color);
+}
+.h{
+    font-size:x-large;
+    display: inline-block;
+    position: relative;
+    font-weight: 800;
+  
+    color: var(--bg-color-theme);
+}
+.h:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--bg-color-theme);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .b1:hover{
+    transform: translateY(13px);
+  }
+  .b2:hover{
+    transform: translateY(13px);
+  }
+  .b3:hover{
+    transform: translateY(13px);
+  }
+  .b1:hover .h:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .b2:hover .h:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .b3:hover .h:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.randomClass{
+  color: var(--primary-font-color);
+}
+.b1, .b2, .b3{
+width: 19rem;
+height: 12rem;
+background-color: var(--primary-01);
+color: var(--primary-font-color);
+margin: 0 auto;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 60px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+transition: 500ms;
+}
+.fast{
+  /* background-color: brown; */
+}
+.b2{
+    margin-top:7rem;
+}
+
+.b1:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;    transition: 500ms;
+}
+.b2:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;    transition: 500ms;
+}
+.b3:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;    transition: 500ms;
+}
+
+@media screen and (max-width:600px){
+    .box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        height: fit-content;
+    }
+   .b1, .b3,.b2{
+        margin-top:1rem;
+    }
+}

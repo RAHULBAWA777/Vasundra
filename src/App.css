@@ -1,0 +1,42 @@
+
+html{
+  background-color: var(--bg-color-theme);
+}
+.App {
+  text-align: center;
+  background-color:var(--bg-color-theme);
+  padding-bottom:2rem;
+}
+
+.footer-text{
+  color:var(--primary-01);
+  background:var(--secondary-01)
+}
+
+.components{
+  z-index: 1;
+}
+#no-scroll{
+  pointer-events: none;
+  
+}
+:root{
+  --primary-font-color:white; 
+  --primary-01:#FBA72B;
+  --secondary-01: rgb(255, 255, 255);
+  
+  --footer-bg: var(--secondary-01);
+  --dark-gray:#838383;
+  --white-color:white;
+  --light-white-color:rgb(219, 249, 213);
+  --bg-color-theme:#0A56A0;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+  .App{
+    padding: 0;
+  }
+}

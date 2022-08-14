@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+.container-left{
+  max-width: 20rem;
+  margin-top: 6rem;
+
+}
+.wrapper-left{
+display: flex;
+flex-direction: column;
+text-align: left;
+background-color: var(--bg-color-theme);
+padding: 1rem 2rem 3rem 1.5rem;
+width: 100vw;
+font-family: "proximanovaregular"; 
+}
+
+.wrapper-body-left{
+  padding-left: 1.5rem;
+  padding-right: 0;
+
+}
+
+h1 { 
+  text-transform: uppercase;
+  font-family: "playfairdisplayregular";
+  font-weight: 560;
+  letter-spacing: 0.83px;
+  font-size: 2rem;
+  border-left: solid var(--primary-font-color) 4px;
+  padding-left: 1rem;
+background-color: var(--primary-01);
+  color: var(--primary-font-color);
+}
+
+span {
+  color: white;
+}
+
+p {
+  color: black;
+  font-family: "Montserrat";
+  font-size:.8rem;
+  line-height: 22px;
+  margin: 2rem 0;
+  width: 100%;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.pp{
+  font-size: 1rem;
+}
+.read-page-link {
+  color: maroon;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin: 1rem 0 0 0;
+}
+
+.card-img-left{
+  width:100vw;
+  margin-bottom: -0.25rem;
+  height: 30rem;
+}
+
+@media only screen and (min-width: 650px) {
+
+  .container-left{
+    max-width: 100vw;
+    display: flex;
+    height: 27rem;
+}
+
+.wrapper-left{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: auto 2rem auto 7rem;
+  background-color: var(--bg-color-theme);
+  justify-content: center;
+  font-family: "proximanovaregular";
+  width:40%;
+}
+.wrapper-left >h1{
+  margin-bottom: 1rem;
+}
+
+.card-img-left{
+  width:60%;
+  margin-bottom: -0.25rem;
+}
+
+}
+@media screen and (max-width :600px){
+  .card-img-left{
+   height: 20rem;
+  }
+  .pp{
+    font-size: .8rem;
+  }
+}

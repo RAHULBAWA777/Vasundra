@@ -1,0 +1,65 @@
+
+
+.header-container{
+    background-color: rgba(0, 0, 0, 0.7);
+    display:flex;
+    padding:0.5rem;
+    max-width:100%;
+    position:sticky;
+    top:0; 
+    border-bottom: 3px solid var(--primary-01);
+}
+
+.burger-button{
+    color:var(--primary-01);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+.header-logo{
+    width: 10rem;
+    height: 0.25rem;
+    margin: 1rem auto 2.5rem auto;
+    color: white;
+    /* font-family: "Montserrat";
+    font-weight: bold; */
+    font-family: "playfairdisplayregular";
+  font-weight: 560;
+    text-align: center;
+}
+
+.header-right-icons-container{
+    
+    display:flex;
+    font-size: 1.5rem;
+    gap:1.5rem;
+    align-items: center;
+    margin-right:0.5rem;
+    
+}
+
+.header-right-icon{
+    padding:0.5rem;
+    border-radius: 0.4rem;
+    color:var(--primary-01);
+   
+}
+
+
+
+.header-icon-phone{
+    font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 800px) {
+    .header-logo{
+        margin-right:auto;
+        width: 20rem;
+        height: 0.5rem;
+        font-size: 1.5rem; 
+    }
+
+    .burger-button{
+        margin-left: 1rem;
+    }
+}
