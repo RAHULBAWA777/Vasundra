@@ -58,11 +58,11 @@ const FrontPageContent = () => {
       <br/>
       <br/>
       <br/>
-      <h1 className='walkHeader' style={{width:'40%', margin:'70px auto'}}>2BHK 360<span>&#176;</span> Virtual Tour</h1>
+      {/* <h1 className='walkHeader' style={{width:'40%', margin:'70px auto'}}>2BHK 360<span>&#176;</span> Virtual Tour</h1>
       <iframe src="https://app.lapentor.com/sphere/2-bhk-imperial" frameBorder="0" width="75%" height="550px" scrolling="no" allow="vr,gyroscope,accelerometer" allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
       <br/>
       <br/>
-      <br/>
+      <br/> */}
       
       <Cards />
       <br/>
