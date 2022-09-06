@@ -5,10 +5,10 @@
     font-weight: 560;
     letter-spacing: 0.83px;
     font-size: 1.5rem;
-    border-left: solid maroon 4px;
+    border-left: solid var(--secondary-01) 4px;
     padding-left: 1rem;
     margin-left: 1rem;
-    color: maroon;
+    color: var(--secondary-01);
     /* background-color: rgb(243, 194, 134); */
   
   }
@@ -21,7 +21,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .card-body{
-    background-color: rgb(243, 194, 134);
+    background-color: var(--primary-01);
 
   }
 

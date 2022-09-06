@@ -7,7 +7,7 @@ body {
 }
 
 .cresta, .whisperValley, .palmSpring, .lakeville, .grandeur, .elite{
-    /* margin-top: 9rem; */
+    
     background-color: var(--bg-color-theme);
     /* background-color: aqua; */
     display: flex;
@@ -20,25 +20,31 @@ body {
 
 .cresta>img {
     width: 30rem;
+    margin-top: 3rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .whisperValley>img {
+    margin-top: 3rem;
     width: 30rem;
 }
 .palmSpring>img {
     width: 18rem;
+    margin-top: 3rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
 .elite>img {
+    margin-top: 3rem;
     width: 30rem;
 }
 .lakeville>img {
+    margin-top: 3rem;
     width: 30rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
 .grandeur>img {
+    margin-top: 3rem;
     width: 30rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 

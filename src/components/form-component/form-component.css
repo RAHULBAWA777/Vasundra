@@ -5,10 +5,10 @@
     font-weight: 560;
     letter-spacing: 0.83px;
     font-size: 1.5rem;
-    border-left: solid maroon 4px;
+    border-left: solid var(--primary-01) 4px;
     padding-left: 1rem;
     margin-left: 1rem;
-    color: maroon;
+    color: var(--primary-01);
     /* background-color: rgb(243, 194, 134); */
   
   }
@@ -26,7 +26,7 @@
 }
 
 .input-box{
-border:2px solid maroon;
+border:2px solid var(--primary-01);
 border-radius: 0.2rem;
 width: 50%;
 background-color: var(--secondary-01);
@@ -36,12 +36,12 @@ padding: 0 1rem;
 }
 
 .submitButton{
-    border:2px solid maroon;
+    border:2px solid var(--secondary-01);
     width: 20%;
     background-color: var(--secondary-01);
     height: 2.5rem;
     padding: 0.5rem 1rem;
-    color:maroon;
+    color:var(--primary-01);
     }
     @media screen and (max-width:600px){
       .submitButton{

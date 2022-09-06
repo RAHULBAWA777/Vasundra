@@ -12,6 +12,7 @@ margin-left: 36%;
 }
 .he{
     border-bottom: 3px solid var(--primary-01);
+    color: var(--primary-01);
 }
 .hp{
     padding-top: 1rem ;

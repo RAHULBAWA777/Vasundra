@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 // import TextCard from "../text-card-component/TextCard";
-import CarouselComponent from "../carousel-component/carousel";
+// import CarouselComponent from "../carousel-component/carousel";
 // import TextCardLeft from "../text-card-left-component/TextCardLeft";
 import PopUpComponent from "../popUp/PopUp";
 // import imperial from '../../images/Highcompressed_2057613182.jpg'
 // import templeImage from '../../images/temple-town-aprt1.jpg'
+import { ImageData } from '../VerticalHorizontalCoarousel/CarouselData/ImageData';
+import { InfoData } from '../VerticalHorizontalCoarousel/CarouselData/InfoData';
+import VerticalHorizontalCarousel from '../VerticalHorizontalCoarousel/VerticalHorizontalCarousel';
 import FooterComponent from '../footer-component/FooterComponent';
 import Cards from '../floatingCards/Cards';
 import scanner from '../../images/qr code.png'
@@ -20,7 +23,8 @@ const FrontPageContent = () => {
       
       <PopUpComponent popUpState={popUpState} setPopUpState={setPopUpState}/>
       <div className={popUpState&&'wrapper-blurred'}>
-      <CarouselComponent />
+      <VerticalHorizontalCarousel slides={ImageData} slides2={InfoData}/>
+      {/* <CarouselComponent /> */}
       {/* <TextCard
         heading="Welcome to Theme Ambience"
         para="Theme Ambience Constructions Pvt Ltd, a well established construction company headed by Mr. Bimal Kumar Kedia (MD) in the twin cities known for its uncompromising quality standards, and in schedule completion of projects, ever evolving to provide customers with an environment that truly understands their needs and aspirations.
@@ -73,7 +77,8 @@ const FrontPageContent = () => {
       <br/>
      {/* <h1 style={{width:'40%',margin:'70px auto'}}>Our Location</h1> */}
      <div className='loc'>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8638758463762!2d78.41388831487609!3d17.370281988088937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97dfe01c3945%3A0xdc85f8e51bbe4e59!2sTheme%20Imperial!5e0!3m2!1sen!2sin!4v1660239813770!5m2!1sen!2sin" width="60%" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8220962137225!2d78.53111710041769!3d17.3722915380292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98ee44de1977%3A0xe77df5ba7b53bdfb!2sChaitanya%20Chambers!5e0!3m2!1sen!2sin!4v1662485971088!5m2!1sen!2sin" width="40%" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8638758463762!2d78.41388831487609!3d17.370281988088937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97dfe01c3945%3A0xdc85f8e51bbe4e59!2sTheme%20Imperial!5e0!3m2!1sen!2sin!4v1660239813770!5m2!1sen!2sin" width="60%" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> */}
     <div className='sc'><h2>Scan QR Code <br/> For Location</h2> <img src={scanner}></img></div>
     </div>
     <br/>

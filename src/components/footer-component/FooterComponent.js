@@ -7,43 +7,38 @@ export default function FooterComponent() {
         <div className="footer-copyright">
           <div className="footer-subheading"> About Us</div>
           <div className="footer-subheading-content">
-          Theme Ambience Constructions Pvt Ltd, a well established construction company headed by Mr. Bimal Kumar Kedia (MD) in the twin cities known for its uncompromising quality standards, and in schedule completion of projects, ever evolving to provide customers with an environment that truly understands their needs and aspirations.
+            Vasundhara Projects lives by the values of quality and precision. In Vasundhara, you will find an able and invaluable partner for the plot or home of your dreams. Whether you are thinking of a modest home or a luxury nest pad, we are uniquely positioned and qualified to deliver outstanding quality on-time and within the budget.
           </div>
         </div>
         <div className="footer-copyright">
           <div className="footer-subheading"> Contact Us</div>
           <div className="footer-subheading-content">
-            <div className="footer-contact"> Theme Ambience Constructions Pvt Ltd </div>{" "}
-            theme@themeambience.com 
-            www.themeambience.com
+            <div className="footer-contact"> Vasundhara Projects </div>{" "}
+            Phone :
+            +91 40 66816622
+            +91 40 66816632
             <br/>
-            Tel:040-23377851/53
-            <br/>
-            Sales22@propbuynsell.com
-            <br/>
-            9391415599 / 9391415884 / 6303363461
+            Email:
+            info@vasundharaprojects.com
           </div>
         </div>
         <div className="footer-copyright">
           <div className="footer-subheading"> Address </div>
           <div className="footer-subheading-content">
-            Plot 1-B, H.No. 8-2-293/82/L/1-B. 1st Floor,
-<br/>
-            MLA Colony, Road No. 12,
-
-            Banjara Hills,
-            <br/>
-             Hyderabad - 500034
+            Vasundhara Projects Pvt. Ltd.#502 ,
+            <br />
+            Chaitanya Chambers
+            Chaitanyapuri, Kothapet,
+            <br />
+            Hyderabad - 500060, Telangana
+            <br />
+            Landmark - Beside HP Petrol Bunk
           </div>
         </div>
         <div className="footer-copyright">
           <div className="footer-subheading"> Disclaimer </div>{" "}
           <div>
-            This website is only a conceptual presentation of the project and
-            not a legal offering. The specification, plans, images and other
-            details herein are only indicative and the developer/owner reserves
-            the right to change any of these in the interest of the development
-            as deemed fit.{" "}
+           The content given in the presentation is indicative only. The developer reserves the right for any alteration in plans, elevations & specifications.{" "}
           </div>{" "}
         </div>{" "}
       </div>{" "}

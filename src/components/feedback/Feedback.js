@@ -1,12 +1,12 @@
-// import React from 'react'
-// import Form from '../form-component/FormComponent'
+import React from 'react'
+import Form from '../form-component/FormComponent'
 
-// const Feedback = () => {
-//   return (
-//     <div>
-//         <Form/>
-//     </div>
-//   )
-// }
+const Feedback = () => {
+  return (
+    <div>
+        <Form/>
+    </div>
+  )
+}
 
-// export default Feedback
+export default Feedback

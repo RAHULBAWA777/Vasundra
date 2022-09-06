@@ -40,19 +40,19 @@ function App() {
             <Route exact path="/about" element={<AboutUs/>} />
           
             <Route exact path="/TirupatiTempleTown" element={<TempleView/>} />
-            <Route exact path="/ThemeFortVista" element={<ThemeFort/>} />
-            <Route exact path="/ThemeCrest" element={<ThemeCresta/>} />
+            {/* <Route exact path="/ThemeFortVista" element={<ThemeFort/>} />
+            <Route exact path="/ThemeCrest" element={<ThemeCresta/>} /> */}
             <Route exact path="/contact" element={<Contact/>} />
             
             <Route exact path="/comProjects" element={<CompletedProjects/>} />
-            <Route exact path="/project" element={<Project/>} />
+            {/* <Route exact path="/project" element={<Project/>} /> */}
 
-            <Route exact path="/ThemeCrest" element={<ThemeCresta/>} />
+            {/* <Route exact path="/ThemeCrest" element={<ThemeCresta/>} />
             <Route exact path="/Elite" element={<ThemeElite/>} />
             <Route exact path="/Lakeville" element={<ThemeLakeville/>} />
             <Route exact path="/whisperValley" element={<ThemeWhisperValley/>} />
             <Route exact path="/Grandeur" element={<ThemeGrandeur/>} />
-            <Route exact path="/palmSpring" element={<ThemePalmSpring/>} />
+            <Route exact path="/palmSpring" element={<ThemePalmSpring/>} /> */}
 
           </Routes>
       </Router>

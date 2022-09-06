@@ -29,9 +29,9 @@ const Navbar = () => {
                             </a>
                             <ul className="dropdown-menu ">
                                 
-                                <li><Link className="dropdown-item " to="/project">Theme Imperial</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/TirupatiTempleTown">Tirupati Temple Town Phase-2</Link></li>
+                                {/* <li><Link className="dropdown-item " to="/project">Theme Imperial</Link></li>
+                                <li><hr className="dropdown-divider" /></li> */}
+                                <li><Link className="dropdown-item" to="/TirupatiTempleTown">Tirumula Enclave</Link></li>
                             </ul>
                         </li>
                         {/* <li className="nav-item dropdown ">
@@ -68,7 +68,7 @@ const Navbar = () => {
                             </ul>
                         </li> */}
                        
-                        <li className="nav-item dropdown ">
+                        {/* <li className="nav-item dropdown ">
                             <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Future Projects
                             </a>
@@ -86,7 +86,7 @@ const Navbar = () => {
                                 <li><Link className="dropdown-item" to="/palmSpring">Theme Palm Spring</Link></li>
                                 
                             </ul>
-                        </li>
+                        </li> */}
                         {/* <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/feedback">Feedback</Link>
                         </li> */}
