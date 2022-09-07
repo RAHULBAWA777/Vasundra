@@ -10,15 +10,17 @@
     margin-left: 1rem;
     color: var(--secondary-01);
     /* background-color: rgb(243, 194, 134); */
-  
   }
  body{
   background-color: rgb(243, 194, 134);
-
+ }
+ .spaceDown{
+  margin-bottom: 2rem;
  }
   .card{
     border: none!important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
   }
   .card-body{
     background-color: var(--primary-01);

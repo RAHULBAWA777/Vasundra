@@ -2,7 +2,7 @@ import { useState } from 'react'
 import "./VertiHoriCarousel.css";
 import { ImageData } from "./CarouselData/ImageData";
 import { InfoData } from "./CarouselData/InfoData";
-import years from '../../images/40 years.png'
+// import years from '../../images/40 years.png'
 
 // import FortImage from '../../images/Picture.jpg'
 

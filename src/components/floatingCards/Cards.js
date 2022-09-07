@@ -13,7 +13,7 @@ const Cards = () => {
         <FastCounter
           delay={2000}
           startNumber={10000}
-          to={2}
+          to={0}
           style={{
             color: "white",
             fontWeight: "bold",
@@ -29,7 +29,7 @@ const Cards = () => {
         <FastCounter
           delay={2000}
           startNumber={10000}
-          to={11}
+          to={0}
           style={{
             color: "white",
             fontWeight: "bold",
@@ -45,7 +45,7 @@ const Cards = () => {
         <FastCounter
           delay={2000}
           startNumber={10000}
-          to={4}
+          to={0}
           style={{
             color: "white",
             fontWeight: "bold",
@@ -62,7 +62,7 @@ const Cards = () => {
         <FastCounter
           delay={2000}
           startNumber={10000}
-          to={40}
+          to={0}
           style={{
             color: "white",
             fontWeight: "bold",

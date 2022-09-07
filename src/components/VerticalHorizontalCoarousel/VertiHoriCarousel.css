@@ -75,7 +75,7 @@
   font-family: 'Merriweather', serif;
   /* color:maroon; */
   /* background-color: maroon; */
-  background: linear-gradient(to right, rgb(245, 146, 59) 20%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 80%, rgb(245, 146, 59) 90%);
+  background: linear-gradient(to right, rgb(245, 146, 59) 20%, rgb(42, 159, 243) 40%, rgb(42, 159, 243) 80%, rgb(245, 146, 59) 90%);
   background-size: 200% auto;
   color: #000;
   background-clip: text;

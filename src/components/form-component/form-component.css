@@ -12,11 +12,8 @@
     /* background-color: rgb(243, 194, 134); */
   
   }
-
-
-
 .form{
-    background-color: var(--bg-color-theme);
+    /* background-color: var(--bg-color-theme); */
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -36,16 +33,19 @@ padding: 0 1rem;
 }
 
 .submitButton{
-    border:2px solid var(--secondary-01);
+    border:2px solid var(--primary-01);
     width: 20%;
     background-color: var(--secondary-01);
     height: 2.5rem;
     padding: 0.5rem 1rem;
     color:var(--primary-01);
     }
+    .col-sm-6{
+      margin-top: 0px!important;
+    }
     @media screen and (max-width:600px){
       .submitButton{
-        width: 40%;
+        width: 50%;
         
         }
     }

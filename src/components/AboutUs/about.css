@@ -1,6 +1,6 @@
 
 .containerx{
-    background-color: var(--bg-color-theme);
+    /* background-color: var(--bg-color-theme); */
     height: 100%;
     padding: 5rem 10rem;
     display: flex;
@@ -10,7 +10,7 @@
    width: 90%;
    margin: 0 auto;
    /* background-color: aqua; */
-
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .containerx>p{
 text-align: left;
@@ -18,7 +18,8 @@ text-align: left;
 .FP{
     margin: 1rem 1rem;
     margin-bottom: 2rem;
-    box-shadow: var(--primary-01) 0px 22px 70px 4px;}
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .containerx>h1{
     margin-bottom: 2rem;
 }
@@ -39,7 +40,7 @@ h1{
 }
 p{
     margin-bottom: 4rem!important;
-    color: var(--primary-font-color);
+    /* color: var(--primary-font-color); */
 }
 hr{
     /* width: 60%; */

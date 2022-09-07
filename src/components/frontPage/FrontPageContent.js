@@ -62,12 +62,16 @@ const FrontPageContent = () => {
       <br/>
       <br/>
       <br/>
-      {/* <h1 className='walkHeader' style={{width:'40%', margin:'70px auto'}}>2BHK 360<span>&#176;</span> Virtual Tour</h1>
-      <iframe src="https://app.lapentor.com/sphere/2-bhk-imperial" frameBorder="0" width="75%" height="550px" scrolling="no" allow="vr,gyroscope,accelerometer" allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+      <h1 className='walkHeader' style={{width:'40%', margin:'70px auto'}}> 360<span>&#176;</span> Virtual Tour</h1>
+      <iframe src="https://app.lapentor.com/sphere/aerial-360" frameborder="0" width="75%" height="550px" scrolling="no" allow="vr,gyroscope,accelerometer" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>      <br/>
       <br/>
       <br/>
-      <br/> */}
-      
+      <br/>
+      <br/>
+      <h1 className='walkHeader' style={{width:'40%', margin:'70px auto'}}> 360<span>&#176;</span> Virtual Tour</h1>
+      <iframe src="https://app.lapentor.com/sphere/vangoor-pride-3d" frameborder="0" width="75%" height="550px" scrolling="no" allow="vr,gyroscope,accelerometer" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>      <br/>
+      <br/>
+
       <Cards />
       <br/>
       <br/>
@@ -78,7 +82,6 @@ const FrontPageContent = () => {
      {/* <h1 style={{width:'40%',margin:'70px auto'}}>Our Location</h1> */}
      <div className='loc'>
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8220962137225!2d78.53111710041769!3d17.3722915380292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98ee44de1977%3A0xe77df5ba7b53bdfb!2sChaitanya%20Chambers!5e0!3m2!1sen!2sin!4v1662485971088!5m2!1sen!2sin" width="40%" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8638758463762!2d78.41388831487609!3d17.370281988088937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97dfe01c3945%3A0xdc85f8e51bbe4e59!2sTheme%20Imperial!5e0!3m2!1sen!2sin!4v1660239813770!5m2!1sen!2sin" width="60%" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> */}
     <div className='sc'><h2>Scan QR Code <br/> For Location</h2> <img src={scanner}></img></div>
     </div>
     <br/>

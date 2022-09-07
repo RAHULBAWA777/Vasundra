@@ -10,7 +10,7 @@ body {
 
 .temple {
     /* margin-top: 9rem; */
-    background-color: var(--bg-color-theme);
+    /* background-color: var(--bg-color-theme); */
     /* background-color: aqua; */
     display: flex;
     justify-content: center;

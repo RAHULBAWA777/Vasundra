@@ -1,11 +1,11 @@
 
 html{
-  background-color: var(--bg-color-theme);
+  /* background-color: var(--bg-color-theme); */
 }
 .App {
   text-align: center;
-  background-color:var(--bg-color-theme);
-  padding-bottom:2rem;
+  background-color:var(--primarry-01);
+  /* padding-bottom:2rem; */
 }
 
 .footer-text{

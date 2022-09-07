@@ -19,12 +19,12 @@ import FortImage from '../../images/fortview_main.jpg'
 const CompletedProjects = () => {
   return (
     <>
-      <div className=' container' style={{ height: '100%', marginTop: '1rem' }}>
+      <div className=' container spaceDown' style={{ height: '100%', marginTop: '1rem' }}>
 
         <div className='row'>
           <div className="col-sm-4">
             <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={lP} className="card-img-top" alt="..." />
+            <img style={{height:'15rem', width: '22rem' }} src={lP} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Lorven's Paradise</h5>
                 <p className="card-text mx-auto">Kandukur Mandal</p>
@@ -34,7 +34,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={airport} className="card-img-top" alt="..." />
+            <img style={{height:'15rem', width: '22rem' }} src={airport} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Lorven City</h5>
                 <p className="card-text mx-auto">Nandigoan Village</p>
@@ -44,7 +44,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={goldLeaf} className="card-img-top" alt="..." />
+            <img style={{height:'15rem', width: '22rem' }} src={goldLeaf} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Lorven's Gold Leaf</h5>
                 <p className="card-text mx-auto">Srinagar Colony, Hyderabad</p>
@@ -54,9 +54,9 @@ const CompletedProjects = () => {
 
           < div className="col-sm-4">
             <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={fortuneClub} className="card-img-top" alt="..." />
+            <img style={{height:'15rem', width: '22rem' }} src={fortuneClub} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title mx-auto">Lorven's Fortune Club</h5>
+                <h5 style={{fontSize:'20px'}} className="card-title mx-auto">Lorven's Fortune Club</h5>
                 <p className="card-text mx-auto">Atchuthapuram, Visakhapatnam</p>
               </div>
             </div>
@@ -64,9 +64,9 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={fortuneHome} className="card-img-top" alt="..." />
+            <img style={{height:'15rem', width: '22rem' }} src={fortuneHome} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title mx-auto">Lorven's Fortune Homes</h5>
+                <h5 style={{fontSize:'19px'}} className="card-title mx-auto">Lorven's Fortune Homes</h5>
                 <p className="card-text mx-auto">Visakhapatnam  Atchuthapuram highway</p>
               </div>
             </div>
