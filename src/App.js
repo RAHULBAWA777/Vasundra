@@ -13,20 +13,22 @@ import "./App.css";
 import Navbar from "./components/NewHeader/Navbar";
 import AboutUs from "./components/AboutUs/AboutUs";
 import FrontPageContent from "./components/frontPage/FrontPageContent";
-// import GolfView from "./components/currentProjects/GolfView";
-// import FortView from "./components/currentProjects/FortView";
-// import LakeView from "./components/currentProjects/LakeView";
+import LorvenParadise from "./components/completedProjects/Hyderabad/LorvenParadise";
+import LorvenCity from "./components/completedProjects/Hyderabad/LorvenCity";
+import LorvenGoldLeaf from "./components/completedProjects/Hyderabad/LorvenGoldLeaf";
 import TempleView from "./components/currentProjects/TempleView";
-import ThemeCresta from "./components/futureProjects/ThemeCresta";
-import ThemeFort from "./components/futureProjects/ThemeFort";
+
 import Contact from "./components/contact/Contact";
 import CompletedProjects from "./components/completedProjects/CompletedProjects";
 import Project from "./components/currentProjects/Project";
-import ThemeElite from "./components/futureProjects/ThemeElite";
-import ThemeLakeville from "./components/futureProjects/ThemeLakeville";
-import ThemeWhisperValley from "./components/futureProjects/ThemeWhisperValley";
-import ThemeGrandeur from "./components/futureProjects/ThemeGrandeur";
-import ThemePalmSpring from "./components/futureProjects/ThemePalmSpring";
+
+import LorvenFortuneHome from "./components/completedProjects/Visakhapatnam/LorvenFortuneHome";
+import LorvenFortuneCastle from "./components/currentProjects/visakhaptnam/LorvenFortuneCastle";
+import LorvenFortuneClub from "./components/completedProjects/Visakhapatnam/LorvenFortuneClub";
+// ongoing
+import JubileeHills from "./components/currentProjects/Nalgonda/JubileeHills";
+import LorvenBrundhavan from "./components/currentProjects/kalwakurthy/LorvenBrundhavan";
+import LorvenMillerCity from "./components/currentProjects/miryalaguda/LorvenMillerCity";
 
 
 function App() {
@@ -38,14 +40,28 @@ function App() {
           <Routes>
             <Route exact path="/" element={<FrontPageContent/>} />
             <Route exact path="/about" element={<AboutUs/>} />
+
           
             <Route exact path="/TirupatiTempleTown" element={<TempleView/>} />
-            {/* <Route exact path="/ThemeFortVista" element={<ThemeFort/>} />
-            <Route exact path="/ThemeCrest" element={<ThemeCresta/>} /> */}
             <Route exact path="/contact" element={<Contact/>} />
             
             <Route exact path="/comProjects" element={<CompletedProjects/>} />
             {/* <Route exact path="/project" element={<Project/>} /> */}
+
+{/* ##################################################################################################### */}
+
+            {/* onGOING proJECTS  HYDERABAD*/}
+            <Route exact path="/LorvenParadise" element={<LorvenParadise/>}/>
+            <Route exact path="/LorvenCity" element={<LorvenCity/>}/>
+            <Route exact path="/LorvenGoldLeaf" element={<LorvenGoldLeaf/>}/>
+            {/* onGOING proJECTS  VISAKHPATNAM*/}
+            <Route exact path="/LorvenFortuneClub" element={<LorvenFortuneClub/>}/>
+            <Route exact path="/LorvenFortuneHome" element={<LorvenFortuneHome/>}/>
+            <Route exact path="/LorvenFortuneCastle" element={<LorvenFortuneCastle/>}/>
+            {/* onGOING proJECTS  NALGONDA  */}
+            <Route exact path="/JubileeHills" element={<JubileeHills/>}/>
+            <Route exact path="/JubileeHills" element={<LorvenBrundhavan/>}/>
+            <Route exact path="/JubileeHills" element={<LorvenMillerCity/>}/>
 
             {/* <Route exact path="/ThemeCrest" element={<ThemeCresta/>} />
             <Route exact path="/Elite" element={<ThemeElite/>} />

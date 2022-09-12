@@ -8,7 +8,7 @@
 display: flex;
 flex-direction: column;
 text-align: left;
-background-color: var(--bg-color-theme);
+/* background-color: var(--bg-color-theme); */
 padding: 1rem 2rem 1rem 1.5rem;
 width: 100vw;
 font-family: "proximanovaregular"; 
@@ -29,7 +29,7 @@ h1 {
   /* border-left: solid rgb(128, 107, 0) 4px; */
   padding-left: 1rem;
   /* width: 100%; */
-  color: maroon;
+  color: var(--primary-font-color);
 }
 
 span {
@@ -81,7 +81,7 @@ p {
   flex-direction: column;
   text-align: left;
   padding: auto 2rem auto 7rem;
-  background-color: var(--bg-color-theme);
+  /* background-color: var(--bg-color-theme); */
   justify-content: center;
   font-family: "proximanovaregular";
   width:40%;

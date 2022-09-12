@@ -3,7 +3,7 @@
  width: 30rem;
  height: fit-content;
  padding: 2rem;
- background-color:  var(--bg-color-theme);
+ background-color:  var(--primary-font-color);
  z-index: 10;
 margin: 4rem auto;
 margin-left: 36%;
@@ -16,7 +16,7 @@ margin-left: 36%;
 }
 .hp{
     padding-top: 1rem ;
-    color: var(--primary-font-color);
+    color: var(black);
 }
 .pop-up-closed{
     display: none;
@@ -27,7 +27,7 @@ margin-left: 36%;
     border-radius: 4px;
     margin-top: 1rem;
     border: none;
-    color: var(--bg-color-theme);
+    color: var(--primary-font-color);
 }
 .butt:hover{
     background-color:transparent;

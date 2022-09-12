@@ -8,10 +8,10 @@ body {
 
 }
 
-.temple {
+.OngoingProjectsMainDiv {
     /* margin-top: 9rem; */
     /* background-color: var(--bg-color-theme); */
-    /* background-color: aqua; */
+    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ body {
     margin: 0 auto;
 }
 
-.temple>img {
+.OngoingProjectsMainDiv>img {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     margin-top: 3rem;
 }

@@ -1,12 +1,12 @@
 import React from 'react'
 import './navbar.css'
-import Logo from '../../images/logo.png'
+import Logo from '../../images/vasundhara logopng.png'
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
         //container-fluid
-        <nav className="navbar bg-da   navbar-expand-lg  shadow p-3 mb-5  " style={{zIndex:'100',top:'0'}}>
+        <nav className="navbar bg-da   navbar-expand-lg  shadow p-3 mb-5  " style={{ zIndex: '100', top: '0' }}>
             <div className="container-fluid mx">
                 <a className="navbar-brand" href="#"><img src={Logo} alt='logo' height={50} width={200} /> </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,69 +24,63 @@ const Navbar = () => {
                             <Link className="nav-link active" to="/comProjects">Completed Projects</Link>
                         </li>
                         <li className="nav-item dropdown ">
-                            <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Current Projects
+                            <a className="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ongoing Projects
                             </a>
-                            <ul className="dropdown-menu ">
-                                
-                                {/* <li><Link className="dropdown-item " to="/project">Theme Imperial</Link></li>
-                                <li><hr className="dropdown-divider" /></li> */}
-                                <li><Link className="dropdown-item" to="/TirupatiTempleTown">Tirumula Enclave</Link></li>
+                            <ul className="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                                <li><a className="dropdown-item " href="#">Hyderabad &raquo;</a>
+                                    {/* SUBMENU 1 */}
+                                    {/* <ul class="dropdown-menu dropdown-submenu-1">
+                                   
+                                        <li><Link className="dropdown-item" to="/LorvenParadise">Lorven's Paradise</Link></li>                                        
+                                        <li><hr className="dropdown-divider" /></li>
+                                        <li><Link className="dropdown-item" to="/LorvenCity">Lorven City</Link></li>
+                                        <li><hr className="dropdown-divider" /></li>
+                                        <li><Link className="dropdown-item" to="/LorvenGoldLeaf">Lorven's Gold Leaf</Link></li>
+                               
+                                    </ul> */}
+                                </li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><a className="dropdown-item " href="#">Visakhapatnam &raquo;</a>
+                                    {/* SUBMENU 2 */}
+                                    <ul class="dropdown-menu dropdown-submenu-2">
+
+                                        {/* <li><Link className="dropdown-item" to="/LorvenFortuneClub">Lorven's Fortune Club</Link></li>                                        
+                                   <li><hr className="dropdown-divider" /></li>
+                                   <li><Link className="dropdown-item" to="/LorvenFortuneHome">Lorven's Fortune Home</Link></li>
+                                   <li><hr className="dropdown-divider" /></li> */}
+                                        <li><Link className="dropdown-item" to="/LorvenFortuneCastle">Lorven's Fortune Castle</Link></li>
+
+                                    </ul>
+                                </li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><a className="dropdown-item " href="#">Nalgonda &raquo;</a>
+                                    {/* SUBMENU 3 */}
+                                    <ul class="dropdown-menu dropdown-submenu-3">
+                                        <li><Link className="dropdown-item" to="/JubileeHills">Jubilee Hills (Nalgonda)</Link></li>
+                                    </ul>
+                                </li>
+
+                                <li><hr className="dropdown-divider" /></li>
+
+                                <li><a className="dropdown-item " href="#">Kalwakurthy &raquo;</a>
+                                    {/* SUBMENU 4*/}
+                                    <ul class="dropdown-menu dropdown-submenu-4">
+                                        <li><Link className="dropdown-item" to="/LorvenBrundhavan">Lorven's Brundhavan</Link></li>
+                                    </ul>
+                                </li>
+
+                                <li><hr className="dropdown-divider" /></li>
+
+                                <li><a className="dropdown-item " href="#">Miryalaguda &raquo;</a>
+                                    {/* SUBMENU 5*/}
+                                    <ul class="dropdown-menu dropdown-submenu-5">
+                                        <li><Link className="dropdown-item" to="/LorvenMillerCity">Lorven's Miller's City</Link></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
-                        {/* <li className="nav-item dropdown ">
-                            <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Completed Projects
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" to="/comProjects">Ambience Fort</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Swapnalok</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Indralok</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Avenue</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Whisper Valley</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Walden Club</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Ambience Canton</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Ambience Anthem</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Tirupati Temple Town Phase-1</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">@ Kukapally-Emami</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Golf View</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Lake View</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Emami Swanlake</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                            </ul>
-                        </li> */}
-                       
-                        {/* <li className="nav-item dropdown ">
-                            <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Future Projects
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" to="/ThemeCrest">Theme Crest</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/Elite">Theme Elite</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/Lakeville">Theme Lakeville</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/whisperValley">Theme Whisper Valley @ Vijayawada</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/Grandeur">Theme Grandeur</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/palmSpring">Theme Palm Spring</Link></li>
-                                
-                            </ul>
-                        </li> */}
+
                         {/* <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/feedback">Feedback</Link>
                         </li> */}
@@ -95,19 +89,19 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item ">
                             <a className='nav-link active'>
-                            <i style={{fontWeight:'bold'}} className="fa-brands fa-instagram"></i>
-                            </a>
-                            </li>
-                            <li className="nav-item ">
-                            <a className='nav-link active'>
-                            <i style={{fontWeight:'bold'}} className="fa-brands fa-whatsapp"></i>
+                                <i style={{ fontWeight: 'bold' }} className="fa-brands fa-instagram"></i>
                             </a>
                         </li>
-                            <li className="nav-item ">
+                        <li className="nav-item ">
                             <a className='nav-link active'>
-                            <i className="fa-brands fa-facebook-f"></i>
+                                <i style={{ fontWeight: 'bold' }} className="fa-brands fa-whatsapp"></i>
                             </a>
-                            </li>
+                        </li>
+                        <li className="nav-item ">
+                            <a className='nav-link active'>
+                                <i className="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
                     </ul>
 
                 </div>
