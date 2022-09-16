@@ -14,7 +14,7 @@ const LorvenCity = () => {
 
       <div className='OngoingProjectsMainDiv'>
 
-        {/* NESTED ACCORDIAN */}
+        {/* ACCORDIAN */}
 
         <div className='accorInnerDiv'>
           <div class="accordion accordion-flush" id="accordionFlushExample">
