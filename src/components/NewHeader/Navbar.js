@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         //container-fluid
-        <nav className="navbar bg-da   navbar-expand-lg  shadow p-3 mb-5  " style={{ zIndex: '100', top: '0' }}>
+        <nav className="navbar bg-da   navbar-expand-lg  shadow p-3   " style={{ zIndex: '100', top: '0' }}>
             <div className="container-fluid mx">
                 <a className="navbar-brand" href="#"><img src={Logo} alt='logo' height={50} width={200} /> </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

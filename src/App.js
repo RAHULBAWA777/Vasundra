@@ -63,18 +63,9 @@ function App() {
             <Route exact path="/JubileeHills" element={<LorvenBrundhavan/>}/>
             <Route exact path="/JubileeHills" element={<LorvenMillerCity/>}/>
 
-            {/* <Route exact path="/ThemeCrest" element={<ThemeCresta/>} />
-            <Route exact path="/Elite" element={<ThemeElite/>} />
-            <Route exact path="/Lakeville" element={<ThemeLakeville/>} />
-            <Route exact path="/whisperValley" element={<ThemeWhisperValley/>} />
-            <Route exact path="/Grandeur" element={<ThemeGrandeur/>} />
-            <Route exact path="/palmSpring" element={<ThemePalmSpring/>} /> */}
-
           </Routes>
       </Router>
 
-     
-     
     </div>
   );
 }

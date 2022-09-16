@@ -34,7 +34,6 @@ const Project = () => {
         <h4 style={{ fontSize: '15px' }}>3BHK Apartments | 196 Units</h4>
         <h5 style={{ fontSize: '14px' }}>1845 Sq.ft - 2655 Sq.ft</h5>
       </div>
-      
       </div>
  
       <div className='projectSpecs'>

@@ -1,36 +1,80 @@
 .card-title {
- 
-    text-transform: uppercase;
-    font-family: "playfairdisplayregular";
-    font-weight: 560;
-    letter-spacing: 0.83px;
-    font-size: 1.5rem;
-    border-left: solid var(--secondary-01) 4px;
-    padding-left: 1rem;
-    margin-left: 1rem;
-    color: var(--secondary-01);
-    /* background-color: rgb(243, 194, 134); */
-  }
+  text-transform: uppercase;
+  font-family: "playfairdisplayregular";
+  font-weight: 560;
+  letter-spacing: 0.83px;
+  font-size: 1.5rem;
+  border-left: solid var(--secondary-01) 4px;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  color: var(--secondary-01);
+  /* background-color: rgb(243, 194, 134); */
+}
 
- .hite{
-  margin-top: 4rem!important;
- }
- .spaceDown{
+.hite {
+  margin-top: 4rem !important;
+}
+
+.spaceDown {
   margin-bottom: 2rem;
- }
-  .card{
-    border: none!important;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    overflow: hidden;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  .card-body{
-    background-color: var(--primary-01);
+}
 
-  }
+.card {
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
 
-  .card:hover{
-    transform: translateY(-13px);
-    transition: 500ms  ease-in-out;
-  }
+.card-body {
+  background-color: var(--primary-01);
+}
+
+.card:hover {
+  transform: translateY(-13px);
+  transition: 500ms ease-in-out;
+}
+
+
+/* ####################################   COMPLETED PROJECTS INFO PAGES START HERE  ############################################ */
+.OngoingProjectsMainDiv {
+  width: 100%;
+  height: 100%;
+  min-height:87.5vh ;
+  background-image: url("C:\Users\HP\Desktop\VASUNDRA\Vasundra\src\images\airport.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  backdrop-filter: blur(8px);
+  /* margin-top: 14px; */
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+}
+
+.accorInnerDiv{
+  background-color: rgba(256 , 256,256,0.5);
+  backdrop-filter: blur(5px);
+  width: 70%;
+}
+.accorInnerDiv:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all .5s;
+}
+.accordion-item{
+  background-color: transparent!important;
+}
+.accordion-body{
+  background-color: white;
+  text-align: left;
+}
+h4{
+color: var(--primary-01)!important;
+}
+.accordion-button{
+  background-color: transparent!important;
+  font-weight: 700;
+}
