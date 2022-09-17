@@ -34,7 +34,7 @@
 }
 .slide>img {
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
   height: 100vh;
   padding-top: 5rem;
 }

@@ -29,6 +29,7 @@ import LorvenFortuneClub from "./components/completedProjects/Visakhapatnam/Lorv
 import JubileeHills from "./components/currentProjects/Nalgonda/JubileeHills";
 import LorvenBrundhavan from "./components/currentProjects/kalwakurthy/LorvenBrundhavan";
 import LorvenMillerCity from "./components/currentProjects/miryalaguda/LorvenMillerCity";
+import Vangoor from "./components/currentProjects/Vangoor/Vangoor";
 
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
             <Route exact path="/JubileeHills" element={<JubileeHills/>}/>
             <Route exact path="/JubileeHills" element={<LorvenBrundhavan/>}/>
             <Route exact path="/JubileeHills" element={<LorvenMillerCity/>}/>
+            <Route exact path="/Vangoor" element={<Vangoor/>}/>
 
           </Routes>
       </Router>

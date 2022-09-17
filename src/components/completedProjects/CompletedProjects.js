@@ -11,6 +11,7 @@ import angel from '../../images/about.jpg'
 // VISAKHAPATNAM
 import fortuneClub from '../../images/01.jpg'
 import fortuneHome from '../../images/02.jpg'
+import fortuneCastle from '../../images/completed/Fortune Castle/ebrochure.jpg'
 import hiland from '../../images/hilland1.jpg'
 import vensai from '../../images/vensaitownship.jpg'
 
@@ -86,29 +87,19 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          <div className="col-sm-4">
-            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
-              <Link class="text-decoration-none" to="/LorvenParadise">
-                <img style={{ height: '15rem', width: '22rem' }} src={goldLeaf} className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 style={{fontSize:'.9rem'}} className="card-title mx-auto">Lorven's Enclave @ Ghatkesar</h5>
-                  <p className="card-text mx-auto">Srinagar Colony, Hyderabad</p>
-                </div>
-              </Link>
-            </div>
-          </div>
+        
 
-          <div className="col-sm-4">
+          {/* <div className="col-sm-4">
             <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
               <Link class="text-decoration-none" to="/LorvenParadise">
                 <img style={{ height: '15rem', width: '22rem' }} src={goldLeaf} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 style={{fontSize:'1rem'}} className="card-title mx-auto">Victoria Valey @ Ghatkesar</h5>
+                <h5  className="card-title mx-auto">Fortune Club</h5>
                   <p className="card-text mx-auto">Srinagar Colony, Hyderabad</p>
                 </div>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className='row hite'>
@@ -132,6 +123,18 @@ const CompletedProjects = () => {
                 <h5 style={{ fontSize: '19px' }} className="card-title mx-auto">Lorven's Fortune Homes</h5>
                 <p className="card-text mx-auto">Visakhapatnam  Atchuthapuram highway</p>
               </div>
+            </div>
+          </div>
+
+          <div className="col-sm-4">
+            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
+              <Link class="text-decoration-none" to="/LorvenParadise">
+                <img style={{ height: '15rem', width: '22rem' }} src={fortuneCastle} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 style={{ fontSize: '19px' }} className="card-title mx-auto">Lorven's Fortune Castle</h5>
+                  <p className="card-text mx-auto">Srinagar Colony, Hyderabad</p>
+                </div>
+              </Link>
             </div>
           </div>
 

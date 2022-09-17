@@ -13,7 +13,7 @@ const LorvenCity = () => {
       {/* MAIN DIV */}
 
       <div className='OngoingProjectsMainDiv'>
-
+      <div class="bg-image"><img src={airport} /></div>
         {/* ACCORDIAN */}
 
         <div className='accorInnerDiv'>
@@ -81,8 +81,8 @@ const LorvenCity = () => {
                     <li>GMR & Apollo Health city near by kothur.</li>
                     <li>Very near to DLF HOUSING PROJECT.</li>
                     <li>Very near to P&G (Procter & Gamble Unit) (CINCINNATTI, US)</li>
-                    
-                    <h4>Project Highlights</h4>
+
+                    <h4>Educational Institutions :</h4>
                     <li>Ideal School</li>
                     <li>Symbiosis & TISS</li>
                   </ul>
@@ -104,33 +104,33 @@ const LorvenCity = () => {
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingFive">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                Routemap
+                  Routemap
                 </button>
               </h2>
               <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">       <img src={routemapLorvenCity} alt='routemap'/>      </div>
+                <div class="accordion-body">       <img src={routemapLorvenCity} alt='routemap' />      </div>
               </div>
             </div>
 
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingSix">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                Layout
+                  Layout
                 </button>
               </h2>
               <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">       <img src={layoutLorvenCity} alt='layoutLorvenCity'/>       </div>
+                <div class="accordion-body">       <img src={layoutLorvenCity} alt='layoutLorvenCity' />       </div>
               </div>
             </div>
 
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingSeven">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                e-Brochure
+                  e-Brochure
                 </button>
               </h2>
               <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">       <img src={brochureLorvenCity} alt='brochureLorvenCity'/>      </div>
+                <div class="accordion-body">       <img src={brochureLorvenCity} alt='brochureLorvenCity' />      </div>
               </div>
             </div>
 

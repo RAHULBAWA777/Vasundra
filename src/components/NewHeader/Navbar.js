@@ -28,56 +28,8 @@ const Navbar = () => {
                                 Ongoing Projects
                             </a>
                             <ul className="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                                <li><a className="dropdown-item " href="#">Hyderabad &raquo;</a>
-                                    {/* SUBMENU 1 */}
-                                    {/* <ul class="dropdown-menu dropdown-submenu-1">
-                                   
-                                        <li><Link className="dropdown-item" to="/LorvenParadise">Lorven's Paradise</Link></li>                                        
-                                        <li><hr className="dropdown-divider" /></li>
-                                        <li><Link className="dropdown-item" to="/LorvenCity">Lorven City</Link></li>
-                                        <li><hr className="dropdown-divider" /></li>
-                                        <li><Link className="dropdown-item" to="/LorvenGoldLeaf">Lorven's Gold Leaf</Link></li>
-                               
-                                    </ul> */}
-                                </li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item " href="#">Visakhapatnam &raquo;</a>
-                                    {/* SUBMENU 2 */}
-                                    <ul class="dropdown-menu dropdown-submenu-2">
-
-                                        {/* <li><Link className="dropdown-item" to="/LorvenFortuneClub">Lorven's Fortune Club</Link></li>                                        
-                                   <li><hr className="dropdown-divider" /></li>
-                                   <li><Link className="dropdown-item" to="/LorvenFortuneHome">Lorven's Fortune Home</Link></li>
-                                   <li><hr className="dropdown-divider" /></li> */}
-                                        <li><Link className="dropdown-item" to="/LorvenFortuneCastle">Lorven's Fortune Castle</Link></li>
-
-                                    </ul>
-                                </li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item " href="#">Nalgonda &raquo;</a>
-                                    {/* SUBMENU 3 */}
-                                    <ul class="dropdown-menu dropdown-submenu-3">
-                                        <li><Link className="dropdown-item" to="/JubileeHills">Jubilee Hills (Nalgonda)</Link></li>
-                                    </ul>
-                                </li>
-
-                                <li><hr className="dropdown-divider" /></li>
-
-                                <li><a className="dropdown-item " href="#">Kalwakurthy &raquo;</a>
-                                    {/* SUBMENU 4*/}
-                                    <ul class="dropdown-menu dropdown-submenu-4">
-                                        <li><Link className="dropdown-item" to="/LorvenBrundhavan">Lorven's Brundhavan</Link></li>
-                                    </ul>
-                                </li>
-
-                                <li><hr className="dropdown-divider" /></li>
-
-                                <li><a className="dropdown-item " href="#">Miryalaguda &raquo;</a>
-                                    {/* SUBMENU 5*/}
-                                    <ul class="dropdown-menu dropdown-submenu-5">
-                                        <li><Link className="dropdown-item" to="/LorvenMillerCity">Lorven's Miller's City</Link></li>
-                                    </ul>
-                                </li>
+                                <li><Link className="dropdown-item " to="/Vangoor">Vangoor</Link></li>
+                                    
                             </ul>
                         </li>
 

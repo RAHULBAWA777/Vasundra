@@ -81,8 +81,8 @@ const FrontPageContent = () => {
       <br/>
      {/* <h1 style={{width:'40%',margin:'70px auto'}}>Our Location</h1> */}
      <div className='loc'>
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8220962137225!2d78.53111710041769!3d17.3722915380292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98ee44de1977%3A0xe77df5ba7b53bdfb!2sChaitanya%20Chambers!5e0!3m2!1sen!2sin!4v1662485971088!5m2!1sen!2sin" width="40%" height="450" style={{border:0}} allowFullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-    <div className='sc'><h2>Scan QR Code <br/> For Location</h2> <img src={scanner}></img></div>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8220962137225!2d78.53111710041769!3d17.3722915380292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98ee44de1977%3A0xe77df5ba7b53bdfb!2sChaitanya%20Chambers!5e0!3m2!1sen!2sin!4v1662485971088!5m2!1sen!2sin" width="70%" height="450" style={{border:0}} allowFullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+    {/* <div className='sc'><h2>Scan QR Code <br/> For Location</h2> <img src={scanner}></img></div> */}
     </div>
     <br/>
       <br/>
