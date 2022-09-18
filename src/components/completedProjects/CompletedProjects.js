@@ -28,7 +28,7 @@ const CompletedProjects = () => {
 
         <div className='row'>
           <div className="col-sm-4">
-            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
+            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-left">
               <Link class="text-decoration-none" to="/LorvenParadise">
                 <img style={{ height: '15rem', width: '22rem' }} src={lP} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -40,7 +40,7 @@ const CompletedProjects = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
+            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-right">
               <Link class="text-decoration-none" to="/LorvenCity">
                 <img style={{ height: '15rem', width: '22rem' }} src={airport} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -52,7 +52,7 @@ const CompletedProjects = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
+            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-left">
               <Link class="text-decoration-none" to="/LorvenParadise">
                 <img style={{ height: '15rem', width: '22rem' }} src={goldLeaf} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -64,7 +64,7 @@ const CompletedProjects = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
+            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-right">
               <Link class="text-decoration-none" to="/LorvenParadise">
                 <img style={{ height: '15rem', width: '22rem' }} src={filmcity} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -76,7 +76,7 @@ const CompletedProjects = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
+            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-left">
               <Link class="text-decoration-none" to="/LorvenParadise">
                 <img style={{ height: '15rem', width: '22rem' }} src={angel} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -107,7 +107,7 @@ const CompletedProjects = () => {
           <h1>Visakhapatnam</h1>
 
           < div className="col-sm-4">
-            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
+            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-right">
               <img style={{ height: '15rem', width: '22rem' }} src={fortuneClub} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 style={{ fontSize: '20px' }} className="card-title mx-auto">Lorven's Fortune Club</h5>
@@ -117,7 +117,7 @@ const CompletedProjects = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
+            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-left">
               <img style={{ height: '15rem', width: '22rem' }} src={fortuneHome} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 style={{ fontSize: '19px' }} className="card-title mx-auto">Lorven's Fortune Homes</h5>
@@ -127,7 +127,7 @@ const CompletedProjects = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
+            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-right">
               <Link class="text-decoration-none" to="/LorvenParadise">
                 <img style={{ height: '15rem', width: '22rem' }} src={fortuneCastle} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -139,7 +139,7 @@ const CompletedProjects = () => {
           </div>
 
           < div className="col-sm-4">
-            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
+            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-left">
               <img style={{ height: '15rem', width: '22rem' }} src={hiland} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 style={{ fontSize: '20px' }} className="card-title mx-auto">Lorven's Hiland</h5>
@@ -149,7 +149,7 @@ const CompletedProjects = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }}>
+            <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-right">
               <img style={{ height: '15rem', width: '22rem' }} src={vensai} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 style={{ fontSize: '19px' }} className="card-title mx-auto">Vensai Township</h5>

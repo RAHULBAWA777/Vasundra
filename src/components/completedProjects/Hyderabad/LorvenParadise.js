@@ -16,7 +16,7 @@ const LorvenParadise = () => {
 
                 {/* ACCORDIAN */}
 
-                <div className='accorInnerDiv'>
+                <div className='accorInnerDiv' data-aos="zoom-in-down">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
 
                         <div class="accordion-item">

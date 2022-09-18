@@ -5,6 +5,7 @@ html{
 .App {
   text-align: center;
   background-color:var(--primary-font-color);
+  z-index: -2;
   /* padding-bottom:2rem; */
 }
 

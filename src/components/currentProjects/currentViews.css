@@ -4,222 +4,46 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--secondary-01);
-
 }
 
-/* .OngoingProjectsMainDiv {
-    background-color: aqua;
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: 1;
+  }
+.welcome-wrapper{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: 70%;
-    margin: 0 auto;
+    margin-top: 10%;
+    z-index: 2;
 }
-
-.OngoingProjectsMainDiv>img {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    margin-top: 3rem;
-} */
-
-/* ############################################## */
-.proj {
-    margin-top: 3rem;
+.welcome{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--bg-color-theme);
+    z-index: 2;
 }
-
-.frame {
-    /* width: 100%; */
-    height: 90vh;
-    position: relative;
+.dynamic-Pics{
+    /* background-color: antiquewhite; */
+    margin-top: 15%;
 }
-
-.banner {
-    background-color: rgb(243, 194, 134);
-    width: 17%;
-    position: absolute;
-    border-radius: 10px;
-    right: 82%;
-    top: 75%;
-    box-shadow: rgba(240, 211, 46, 0.4) 5px 5px, rgba(240, 179, 46, 0.3) 10px 10px, rgba(240, 191, 46, 0.2) 15px 15px, rgba(240, 185, 46, 0.1) 20px 20px, rgba(240, 179, 46, 0.05) 25px 25px;
+.dynamic-Pics>img{
+    height: 8rem;
+    width: 9rem;
+    /* z-index: 3; */
 }
-
-.banner-hidden {
-    display: none;
+/* SWIPER */
+.swipperRenders{
+    /* background-color: aqua; */
+    margin-top: 20%;
+    width: 100vw;
 }
-
-#btn {
-    position: absolute;
-    background-color: maroon;
-    color: aliceblue;
-    font-size: 50px;
-    padding: 0;
-    height: 30px;
-    line-height: 0;
-    /* margin: -20px 10px; */
-    border: none;
-    width: 30px;
-    left: 90%;
-    top: -20px;
-}
-
-.drop {
-    position: absolute;
-    top: 16rem;
-    right: 10%;
-}
-
-.hh {
-    width: 50%;
-    margin-left: 25% !important;
-    margin-right: 25% !important;
-    border: none;
-    height: 2px;
-    background: black;
-    margin: 10px;
-}
-
-.s {
-    margin: 2rem 0;
-}
-
-.u {
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.banner>h6 {
-    font-size: 1px;
-}
-
-.banner>h1,
-h2,
-h3,
-h4,
-h5 {
-    color: maroon;
-}
-
-.projectSpecs {
-    /* background-color: rgb(133, 87, 26); */
-
-    width: 80%;
-    margin: 5rem auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.projectSpecs>h5 {
-    width: 60%;
-    /* margin: 0rem auto; */
-    line-height: 50px;
-}
-
-.projectSpecs>img {
-    margin: 5rem auto;
-}
-
-.f {
-    margin: 2rem 0;
-}
-
-.gd {
-    width: 100%;
-}
-
-.buildingView {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.gallery {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.vi {
-    height: 22rem;
-}
-.tourr{
-    width: 40%;
-    margin: 70px auto;
-}
-@media screen and (max-width:600px) {
-
-    .temple>img {
-        width: 100%;
-        height: 15rem;
-    }
-
-    .frame {
-        width: 10%;
-        height: 40vh;
-        margin: 5rem 0;
-    }
-
-    .banner {
-        display: none;
-    }
-
-    .temple {
-        width: 90%;
-    }
-
-    .gd {
-        width: 90%;
-        margin: 0;
-    }
-
-    .proj {
-        width: 100%;
-        margin: 0 0;
-        padding: 0;
-    }
-
-    .gallery {
-        width: 100%;
-    }
-
-    .buildingView>img {
-        width: 100%;
-    }
-
-    .f {
-        padding: 0;
-        width: 100%;
-    }
-
-    .bn2 {
-        top: 30%;
-    }
-
-    .projectSpecs {
-        width: 100%;
-        font-size: 2px;
-        margin: 0;
-    }
-    .projectSpecs>h2{
-        font-size: 25px;
-    }
-    .projectSpecs>h5{
-        font-size: 17px;
-        width: 95%;
-    }
-    .u>li{
-        font-size: 17px;
-        line-height: 40px;
-    }
-    .vi{
-        height: 15rem;
-    }
-.tourr{
-    width: 90%;
-    margin: 20px auto;
-}
+.mnm{
+    overflow-x: hidden;
 }
