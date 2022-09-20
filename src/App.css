@@ -1,12 +1,14 @@
 
 html{
   background-color: var(--primary-font-color);
+  overflow-x: hidden;
 }
 .App {
   text-align: center;
   background-color:var(--primary-font-color);
   z-index: -2;
-  /* padding-bottom:2rem; */
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .footer-text{

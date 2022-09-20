@@ -5,7 +5,7 @@ import Odometer from "react-odometerjs";
 
 const Cards = () => {
   return (
-    <div className="box">
+    <div className="box"  data-aos="fade-down" data-aos-duration="2000">
       <div className="b1">
         {" "}
         <div className="h">Current Projects</div>

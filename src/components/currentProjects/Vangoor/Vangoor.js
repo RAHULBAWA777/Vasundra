@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react'
 import '../currentViews.css'
 import TextCardLeft from "../../text-card-left-component/TextCardLeft";
-import waterfall from '../../../images/waterfall.mp4'
+import SwiperCards from "./SwiperCards/SwiperCards"
+import waterfall from '../../../images/vid.mp4'
 import vangoorPic1 from '../../../images/VangoorPics/100FT ROAD 1.jpg'
 import vangoorPic2 from '../../../images/VangoorPics/Arch.jpg'
 import vangoorPic3 from '../../../images/VangoorPics/100FT ROAD 2.jpg'
@@ -25,12 +26,12 @@ import { EffectCoverflow, Pagination } from "swiper";
 const Vangoor = () => {
   return (
     <>
-    <div className='mnm'>
+    {/* <div className='mnm'> */}
       <div className="vid"><video src={waterfall} autoPlay muted loop id="myVideo"></video></div>
       <div className='welcome-wrapper'>
         <div className='welcome' data-aos="fade-up" data-aos-duration="2000">      Welcome       </div>
         <div className='welcome' data-aos="fade-up" data-aos-duration="2500">      to       </div>
-        <div className='welcome' data-aos="fade-up" data-aos-duration="3000">      Vangoor Pride       </div>
+        <div className='welcome' data-aos="fade-up" data-aos-duration="3000">      VANGOOR  PRIDE       </div>
       </div>
 
         <div className='dynamic-Pics' >
@@ -94,8 +95,18 @@ const Vangoor = () => {
           <img src={vangoorPic7} />
         </SwiperSlide>
       </Swiper>
+      
+      <div className='swipperRenders1'>
+        <h1>Specifications</h1>
+      <SwiperCards/>
       </div>
       </div>
+      {/* #################################################### */}
+
+   
+
+      
+      {/* </div> */}
     </>
   )
 }

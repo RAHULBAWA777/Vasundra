@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&family=Merriweather:ital,wght@1,700&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&family=Kalam:wght@700&family=Merriweather:ital,wght@1,700&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
 
 body {
     display: flex;
@@ -25,13 +26,15 @@ body {
 .welcome{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 4rem;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--bg-color-theme);
     z-index: 2;
+    font-family: 'Kalam', cursive;
+
 }
 .dynamic-Pics{
     /* background-color: antiquewhite; */
-    margin-top: 15%;
+    margin-top: 18%;
 }
 .dynamic-Pics>img{
     height: 8rem;
@@ -44,6 +47,30 @@ body {
     margin-top: 20%;
     width: 100vw;
 }
-.mnm{
-    overflow-x: hidden;
+.swipperRenders1{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 5%;
 }
+/* .mnm{
+    overflow-x: hidden;
+    background: linear-gradient(300deg,#fba72b,#ffffff,#3a88d5);
+    background-size: 180% 180%;
+    animation: gradient-animation 27s ease infinite;
+} */
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

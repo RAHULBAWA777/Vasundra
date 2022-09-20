@@ -22,6 +22,7 @@ text-align: left;
 }
 .containerx>h1{
     margin-bottom: 2rem;
+    padding-right: 1rem;
 }
 h1{
     text-transform: uppercase;
