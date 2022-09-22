@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react'
+import { Link } from "react-router-dom";
 import '../currentViews.css'
 import TextCardLeft from "../../text-card-left-component/TextCardLeft";
 import SwiperCards from "./SwiperCards/SwiperCards"
@@ -26,11 +27,11 @@ import { EffectCoverflow, Pagination } from "swiper";
 const Vangoor = () => {
   return (
     <>
-    {/* <div className='mnm'> */}
+    <div className='mnm'>
       <div className="vid"><video src={waterfall} autoPlay muted loop id="myVideo"></video></div>
       <div className='welcome-wrapper'>
-        <div className='welcome' data-aos="fade-up" data-aos-duration="2000">      Welcome       </div>
-        <div className='welcome' data-aos="fade-up" data-aos-duration="2500">      to       </div>
+        <div className='welcome' data-aos="fade-up" data-aos-duration="2000">     Welcome       </div>
+        <div className='welcome' data-aos="fade-up" data-aos-duration="2500">     to       </div>
         <div className='welcome' data-aos="fade-up" data-aos-duration="3000">      VANGOOR  PRIDE       </div>
       </div>
 
@@ -55,7 +56,13 @@ const Vangoor = () => {
       </div>
 
       <div className='swipperRenders'>
-        <h1>More Pictures</h1>
+      <div className='swipperRenders1'>
+        <h1 style={{width:'90%',margin:'auto'}}>Specifications</h1>
+      <SwiperCards/>
+      </div>
+      {/* ######################################################################################## */}
+       
+        <h1 style={{width:'50%',margin:'auto',marginTop:'10%'}}>More Pictures</h1>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -95,18 +102,17 @@ const Vangoor = () => {
           <img src={vangoorPic7} />
         </SwiperSlide>
       </Swiper>
-      
-      <div className='swipperRenders1'>
-        <h1>Specifications</h1>
-      <SwiperCards/>
-      </div>
       </div>
       {/* #################################################### */}
 
-   
-
+   <div className='consultancy'>
+    <div className='consultancyWrapper'>
+    <div className='slogan'>"Let us Guide you Home"</div>
+   <Link  to="/contact" id='consultationButton'>Get A Consultation<span>🠒</span></Link>
+   </div>
+   </div>
       
-      {/* </div> */}
+      </div>
     </>
   )
 }
