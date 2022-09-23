@@ -53,7 +53,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-left">
-              <Link class="text-decoration-none" to="/LorvenParadise">
+              <Link class="text-decoration-none" to="/LorvenGoldLeaf">
                 <img style={{ height: '15rem', width: '22rem' }} src={goldLeaf} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title mx-auto">Lorven's Gold Leaf</h5>

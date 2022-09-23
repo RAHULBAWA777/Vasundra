@@ -4,16 +4,31 @@
     max-width: 80rem;
 }
 .wrapper {
+
+  /* filter: opacity(0.4) drop-shadow(0 0 0 rgb(0, 115, 255));  */
   display: flex;
   flex-direction: column;
   text-align: left;
-  background-color: var(--bg-color-theme);
   padding: 5rem 5rem 3rem 1.5rem;
   width: 100%;
   font-family: "proximanovaregular";
-  /* border-top: 3px solid var(--primary-01);
-  border-bottom: 3px solid var(--primary-01); */
-  
+  background-color: var(--bg-color-theme)!important;
+  position: relative;
+}
+.wrapper::after{
+  background-image: url("../../images/sparkle-5.57c3794f.gif");
+  background-size: cover;
+  background-position: center center;
+  border-radius: inherit;
+  content: "";
+  height: 100%;
+  left: 0px;
+  mix-blend-mode: color-dodge;
+  /* opacity: 0.5; */
+  pointer-events: none;
+  position: absolute;
+  top: 0px;
+  width: 100%;
 }
 .wrapper-body {
   padding-left: 1.5rem;
@@ -24,11 +39,11 @@ h1 {
   font-family: "Montserrat";
   font-weight: 560;
   letter-spacing: 0.83px;
-  font-size: 1.5rem;
-  border-left: solid maroon 4px;
+  font-size: 3rem!important;
+  /* border-left: solid maroon 4px; */
   padding-left: 1rem;
-  margin-left: 1rem;
-  color: maroon;
+  /* margin-left: 1rem; */
+  /* min-height: 3rem; */
   /* background-color: rgb(243, 194, 134); */
 
 }
@@ -37,13 +52,15 @@ span {
   color: white;
 }
 
-p {
-  color: #9b9a9a;
+.para {
+  /* color: #9b9a9a; */
   font-family: "Montserrat";
-  font-size: 0.8rem;
-  line-height: 18px;
+  font-size: 1.5rem!important;
+  line-height: 2rem!important;
   margin: 2rem 0;
   width: 85%;
+  height: 14rem;
+  color: white!important;
 }
 
 
