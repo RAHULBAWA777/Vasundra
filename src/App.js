@@ -30,6 +30,7 @@ import Project from "./components/currentProjects/Project";
 // import LorvenBrundhavan from "./components/currentProjects/kalwakurthy/LorvenBrundhavan";
 // import LorvenMillerCity from "./components/currentProjects/miryalaguda/LorvenMillerCity";
 import Vangoor from "./components/currentProjects/Vangoor/Vangoor";
+import TirumulaEnclave from "./components/completedProjects/Hyderabad/TirumulaEnclave";
 
 
 function App() {
@@ -43,7 +44,6 @@ function App() {
             <Route exact path="/about" element={<AboutUs/>} />
 
           
-            {/* <Route exact path="/TirupatiTempleTown" element={<TempleView/>} /> */}
             <Route exact path="/contact" element={<Contact/>} />
             
             <Route exact path="/comProjects" element={<CompletedProjects/>} />
@@ -51,10 +51,11 @@ function App() {
 
 {/* ##################################################################################################### */}
 
-            {/* onGOING proJECTS  HYDERABAD*/}
+            {/* COMPLETED proJECTS  HYDERABAD*/}
             <Route exact path="/LorvenParadise" element={<LorvenParadise/>}/>
             <Route exact path="/LorvenCity" element={<LorvenCity/>}/>
             <Route exact path="/LorvenGoldLeaf" element={<LorvenGoldLeaf/>}/>
+            <Route exact path="/TirumulaEnclave" element={<TirumulaEnclave/>} />
             {/* onGOING proJECTS  VISAKHPATNAM*/}
             {/* <Route exact path="/LorvenFortuneClub" element={<LorvenFortuneClub/>}/>
             <Route exact path="/LorvenFortuneHome" element={<LorvenFortuneHome/>}/>

@@ -5,7 +5,7 @@ import './completedProjects.css'
 import lP from '../../images/lorvenParadise_home.jpg'
 import airport from '../../images/airport.jpg'
 import goldLeaf from '../../images/home.jpg'
-import filmcity from '../../images/filmcity.jpg'
+import Tirumala from '../../images/completed/Tirumala Enclave/thirumulaenclave1.jpg'
 import angel from '../../images/about.jpg'
 
 // VISAKHAPATNAM
@@ -65,8 +65,8 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card " style={{ height: '22rem', width: '22rem', marginTop: '3rem' }} data-aos="flip-right">
-              <Link class="text-decoration-none" to="/LorvenParadise">
-                <img style={{ height: '15rem', width: '22rem' }} src={filmcity} className="card-img-top" alt="..." />
+              <Link class="text-decoration-none" to="/TirumulaEnclave">
+                <img style={{ height: '15rem', width: '22rem' }} src={Tirumala} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title mx-auto">Tirumula Enclave</h5>
                   <p className="card-text mx-auto">Srinagar Colony, Hyderabad</p>

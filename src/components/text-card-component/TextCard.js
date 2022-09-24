@@ -1,6 +1,8 @@
 import React, {useEffect,useRef } from 'react';
 import "../text-card-component/text-card.css";
 import Typed from 'typed.js';
+
+
 export default function TextCard(props) {
 
   const el = useRef(null);

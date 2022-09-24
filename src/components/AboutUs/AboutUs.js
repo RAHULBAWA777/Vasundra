@@ -5,8 +5,8 @@ import './about.css'
 const AboutUs = () => {
     return (
         <div className='containerx'>
-            <h1 data-aos="fade-up" data-aos-duration="2000">ABOUT US</h1>
-            <img className='FP' src={founderPic} data-aos="fade-up" data-aos-duration="2000"></img>
+            <h1 data-aos="zoom-out" data-aos-duration="1000">ABOUT US</h1>
+            <img className='FP' src={founderPic} data-aos="zoom-out" data-aos-duration="1000"></img>
             <p><strong>Vasundhara Projects (P) Ltd </strong>is a premier real estate development company with more than a decade of rich experience in execution of landmark projects across the length and breadth of Hyderabad. Founded in 2002 by Mr. K. V. Ramesh, Vasundhara has carved a permanent niche for itself by adopting quality system standards and meeting people's aspirations and desire for a comfortable lifestyle. Our goal is to provide quality plots with international standards and enhance the quality of life of our customers. </p>
 
             <p>Our mode of operation and aggressive pricing give you industry-leading performance at a reasonable and highly competitive cost. The organization's impeccable track record is the result of a client-oriented approach and an unwavering commitment to complete customer satisfaction. </p>
